@@ -1,4 +1,6 @@
 = Awesome Qt
+:icons: font
+:toc: macro
 
 :MIT: http://opensource.org/licenses/MIT[MIT license.]
 
@@ -10,6 +12,8 @@ and add-on modules from the Qt project] first! Upcoming modules might be in
 `qt-labs` or `playground` in http://code.qt.io/[code.qt.io]. And remember that
 there is https://github.com/fffaraz/awesome-cpp[Awesome C/C++] for more projects
 that don't use Qt.
+
+toc::[]
 
 == Libraries
 

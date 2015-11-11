@@ -1,0 +1,58 @@
+:AsciiDoctorOrg: https://asciidoctor.org
+:FsfLicenses: http://www.gnu.org/licenses/license-list.html
+:OsiLicenses: http://opensource.org/licenses/alphabetical
+:QuickReference: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+:WritersGuide: http://asciidoctor.org/docs/asciidoc-writers-guide/
+
+= Contributing to Awesome Qt
+
+Thank you for contributing to the Awesome Qt list!
+
+The document is written in AsciiDoc and is usually rendered (e.g. in GitHub)
+with {AsciiDoctorOrg}[AsciiDoctor]. If you are not familiar with AsciiDoc, don't
+worry, it is as simple as MarkDown, but much more powerful and structured. See
+the {QuickReference}[Quick Reference] or the {WritersGuide}[AsciiDoc Writer's
+Guide].
+
+Many things are perfectly open for discussion. Feel free to comment on the
+issues page.
+
+== Which projects qualify?
+
+All that fulfill the following criteria:
+
+. Be related to Qt (uses Qt's types, event loop, signals, etc.). Other C++
+  projects should not qualify. There is an "off topic" section for notable
+  exceptions, but it should be really small. Note that there is also
+  https://github.com/fffaraz/awesome-cpp[Awesome {cpp}] for other native
+  libraries.
+. Projects published under a license which appears in at least the
+  {FsfLicenses}[Free Software Foundation's license list] or the
+  {OsiLicenses}[Open Source Initiative's license list].
+. Projects that are reasonably alive. No specific time is given because it
+  depends on how relevant the project is in its area. There is no need to have 5
+  JSON parsers in the list when there is already native JSON support in Qt Core,
+  for example, but if there is only one library in the world which can read some
+  proprietary format it will be better to have it, even if it didn't receive a
+  commit in two years.
+
+== Content of each entry
+
+Each entry should include exactly:
+
+Name:: See the https://github.com/insideqt/awesome-qt/issues/3[discussion about
+the naming].
+
+Link to the project website:: Try to use the link to the most complete page, so
+from that page alone other sites can be reached (repository, bug tracker, etc.).
+
+A simple description:: From 1 to 3 sentences at most. Use your judgement. There
+is little to say about a library that "just" parses some file format, but more
+specific topics require longer explanations. Try not to use the name of the
+project or Qt in the description to avoid repetition of the same terms over and
+over.
+
+Ideally, we should mention the license too, but many projects are too informal
+about this. This might be in contradiction with the requirements. But at least
+projects explicitly licensed under proprietary terms should clearly be presented
+differently.

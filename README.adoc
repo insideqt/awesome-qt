@@ -1,0 +1,103 @@
+= Awesome Qt
+
+:MIT: http://opensource.org/licenses/MIT[MIT license.]
+
+A curated list of links to awesome Qt-related libraries, tools, and other
+resources published under Free Software/Open Source licenses.
+
+Don't forget to check http://doc.qt.io/qt-5/qtmodules.html[the list of essential
+and add-on modules from the Qt project] first! Upcoming modules might be in
+`qt-labs` or `playground` in http://code.qt.io/[code.qt.io]. And remember that
+there is https://github.com/fffaraz/awesome-cpp[Awesome C/C++] for more projects
+that don't use Qt.
+
+== Libraries
+
+=== User Interface
+
+https://github.com/mikemcquaid/Qocoa::
+Wrappers for OS X Cocoa widgets. {MIT}
+
+https://github.com/cybercatalyst/qtsystemtrayiconmac::
+Extended QSystemTrayIcon for Mac OS X.
+
+=== Graphics
+
+https://github.com/gamecreature/QtAwesome::
+Library for using http://fortawesome.github.io/Font-Awesome/[Font Awesome] or
+other icon sets based on font files.
+
+=== File formats
+
+=== Inter process communication
+
+=== Threading
+
+=== Network protocols and web services
+
+https://github.com/wiedi/libmaia::
+XML-RPC library.
+
+=== Hardware detection and interaction
+
+=== Other programming languages
+
+=== Miscellany
+
+https://github.com/Roxee/qt-roxeemegaup/::
+Wrapper around Sparkle and WinSparkle.
+
+https://github.com/Roxee/qt-roxeesinapp::
+An up to date QtSingleApplication fork.
+
+https://github.com/Roxee/qt-roxeeplatipus::
+A collection of helpers and additional functionalities for Qt (media key
+support, OS X remote control, fullscreen native window hack).
+
+https://github.com/sergey-shambir/breakpad-qt::
+Cross-platform crash handler, implemented as wrapper around google-breakpad.
+
+https://github.com/dschmidt/libcrashreporter-qt::
+libcrashreporter-qt is supposed to provide an easy integration of Google
+Breakpad crash reporting into a Qt application.
+
+=== Event loop dispatchers
+
+https://github.com/sjinks/qt_eventdispatcher_epoll::
+epoll-based event dispatcher
+
+https://github.com/connectedtable/qeventdispatcher_epoll::
+epoll event dispatcher
+
+https://github.com/sjinks/qt_eventdispatcher_libevent::
+libevent-based event dispatcher
+
+https://github.com/sjinks/qt_eventdispatcher_libev::
+libev-based event dispatcher
+
+https://github.com/svalaskevicius/qt-event-dispatcher-libuv::
+libuv event dispatcher
+
+== Tools
+
+https://github.com/KDAB/GammaRay::
+GammaRay is a tool to poke around in a Qt-application and also to manipulate the
+application to some extent.
+
+https://github.com/robertknight/Qt-Inspector::
+Utility to browse the Qt object tree of a running Qt application and edit object
+properties on the fly
+
+== Off topic
+
+NOTE: Stuff that might not integrate at all with Qt's types, API, event loop,
+etc., but still an application built with Qt can leverage it well enough because
+it is cross platform native code that fulfills a common use case of the typical
+Qt applications.
+
+https://github.com/Mendeley/breakpad::
+This is a fork of Google Breakpad, a multi-platform crash reporting system,
+which is used by Mendeley Desktop under Windows, Mac and Linux.
+
+https://github.com/Mendeley/Update-Installer::
+Small cross-platform software update installer.

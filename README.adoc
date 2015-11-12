@@ -18,6 +18,7 @@ toc::[]
 
 == Libraries
 
+
 === User Interface
 
 https://github.com/mikemcquaid/Qocoa::
@@ -26,13 +27,37 @@ Wrappers for OS X Cocoa widgets. {MIT}
 https://github.com/cybercatalyst/qtsystemtrayiconmac::
 Extended QSystemTrayIcon for Mac OS X.
 
+
 === Graphics
 
 https://github.com/gamecreature/QtAwesome::
 Library for using http://fortawesome.github.io/Font-Awesome/[Font Awesome] or
 other icon sets based on font files.
 
+http://qwt.sourceforge.net/::
+Qt Widgets for Technical Applications. Contains GUI Components and utility
+classes which are primarily useful for programs with a technical background.
+Beside a framework for 2D plots it provides scales, sliders, dials, compasses,
+thermometers, wheels and knobs to control or display values, arrays, or ranges
+of type double.
+
+
 === File formats
+
+https://github.com/flavio/qjson::
+Library that maps JSON data to QVariant objects. Supports Qt 4.
+
+https://github.com/gaudecker/qt-json::
+A simple class for parsing JSON data into a QVariant hierarchy and vice versa.
+Supports Qt 4.
+
+
+=== Multimedia
+
+http://www.qtav.org/::
+QtAV is a multimedia playback library based on Qt and FFmpeg. Supports Android,
+iOS and desktops.
+
 
 === Inter process communication
 
@@ -62,17 +87,8 @@ https://github.com/trollixx/node.qml::
 a Node.js compatibility layer to QML applications. Potentially, QML applications
 should be able to use majority of Node.js libraries.
 
+
 === Miscellany
-
-https://github.com/Roxee/qt-roxeemegaup/::
-Wrapper around Sparkle and WinSparkle.
-
-https://github.com/Roxee/qt-roxeesinapp::
-An up to date QtSingleApplication fork.
-
-https://github.com/Roxee/qt-roxeeplatipus::
-A collection of helpers and additional functionalities for Qt (media key
-support, OS X remote control, fullscreen native window hack).
 
 https://github.com/sergey-shambir/breakpad-qt::
 Cross-platform crash handler, implemented as wrapper around google-breakpad.
@@ -80,6 +96,35 @@ Cross-platform crash handler, implemented as wrapper around google-breakpad.
 https://github.com/dschmidt/libcrashreporter-qt::
 libcrashreporter-qt is supposed to provide an easy integration of Google
 Breakpad crash reporting into a Qt application.
+
+https://github.com/Roxee/qt-roxeemegaup/::
+Wrapper around Sparkle and WinSparkle.
+
+https://github.com/Roxee/qt-roxeeplatipus::
+A collection of helpers and additional functionalities for Qt (media key
+support, OS X remote control, fullscreen native window hack).
+
+https://github.com/Roxee/qt-roxeesinapp::
+An up to date QtSingleApplication fork.
+
+https://github.com/VerbalExpressions/QtVerbalExpressions::
+Regular Expressions made easy. Match and replace in strings with an easy to use
+API.
+
+
+=== Web frameworks
+
+http://cutelyst.org/::
+MVC web framework inspired in Perl's Catalyst.
+
+https://github.com/jlaine/qdjango/::
+QDjango is a web framework written in C++ and built on top of the Qt library.
+Where possible it tries to follow django's API, hence its name.
+
+https://github.com/vinipsmaker/tufao::
+Tufão is a web framework for C++ that makes use of Qt's object communication
+system (signals & slots).
+
 
 === Event loop dispatchers
 
@@ -98,6 +143,8 @@ libev-based event dispatcher
 https://github.com/svalaskevicius/qt-event-dispatcher-libuv::
 libuv event dispatcher
 
+
+
 == Tools
 
 https://github.com/KDAB/GammaRay::
@@ -107,6 +154,8 @@ application to some extent.
 https://github.com/robertknight/Qt-Inspector::
 Utility to browse the Qt object tree of a running Qt application and edit object
 properties on the fly
+
+
 
 == Off topic
 

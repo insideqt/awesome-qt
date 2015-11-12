@@ -1,6 +1,6 @@
 = Awesome Qt
 :icons: font
-:toc: macro
+:toc: preamble
 :toc-title:
 
 :MIT: http://opensource.org/licenses/MIT[MIT license.]
@@ -14,7 +14,7 @@ and add-on modules from the Qt project] first! Upcoming modules might be in
 there is https://github.com/fffaraz/awesome-cpp[Awesome C/C++] for more projects
 that don't use Qt.
 
-toc::[]
+
 
 == Libraries
 

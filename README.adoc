@@ -47,6 +47,21 @@ XML-RPC library.
 
 === Other programming languages
 
+https://github.com/seanchas116/libqmlbind::
+A C library for easily creating QML bindings for other languages by exporting
+objects to QML. In use in `ruby-qml`.
+
+http://thp.io/2011/pyotherside/::
+Asynchronous Python 3 Bindings for Qt 5. This is a QML Plugin that provides
+access to a Python 3 interpreter from QML.
+
+http://seanchas116.github.io/ruby-qml/::
+Bindings between Ruby and QML. Enables you to write Qt Quick GUIs in Ruby.
+
+https://github.com/trollixx/node.qml::
+a Node.js compatibility layer to QML applications. Potentially, QML applications
+should be able to use majority of Node.js libraries.
+
 === Miscellany
 
 https://github.com/Roxee/qt-roxeemegaup/::

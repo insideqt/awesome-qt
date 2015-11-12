@@ -1,6 +1,7 @@
 = Awesome Qt
 :icons: font
 :toc: macro
+:toc-title:
 
 :MIT: http://opensource.org/licenses/MIT[MIT license.]
 

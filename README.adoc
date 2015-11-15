@@ -49,6 +49,24 @@ https://github.com/cybercatalyst/qtsystemtrayiconmac::
 Extended QSystemTrayIcon for Mac OS X.
 
 
+=== Gaming
+
+https://github.com/Bacon2D/Bacon2D::
+Framework to ease 2D game development, providing ready-to-use QML elements
+representing basic game entities needed by most of games. Starting with the
+top-level Game container, which provides a game loop and Scene management, all
+the way down to entities with Box2D physics and parallax layers with infinite
+scrolling.
+
+https://github.com/qml-box2d/qml-box2d::
+Box2D plugin for QML. The goal is to expose the functionality of Box2D as QML
+components, in order to make it easy to write physics based games in QML.
+
+http://v-play.net/::
+Allows easy cross-platform mobile game development for all major platforms
+including iOS, Android, BlackBerry.
+
+
 === Graphics
 
 http://api.kde.org/frameworks-api/frameworks5-apidocs/kimageformats/html/::

@@ -25,34 +25,37 @@ https://github.com/KDAB/sqlate::
 Compile-time checked access to databases using C++ templates.
 
 
-=== User Interface
+=== Event loop dispatchers
 
-http://api.kde.org/frameworks-api/frameworks5-apidocs/kguiaddons/html/::
-Utilities for graphical user interfaces in the areas of colors, fonts, text,
-images, keyboard input.
+https://github.com/sjinks/qt_eventdispatcher_epoll::
+epoll-based event dispatcher
 
-http://api.kde.org/frameworks-api/frameworks5-apidocs/kitemmodels/html/::
-A set of extra item models for the model-view framework.
+https://github.com/connectedtable/qeventdispatcher_epoll::
+epoll event dispatcher
 
-http://api.kde.org/frameworks-api/frameworks5-apidocs/kitemviews/html/::
-Includes a set of views, which can be used with item models. It includes views
-for categorizing lists and to add search filters to flat and hierarchical lists.
+https://github.com/sjinks/qt_eventdispatcher_libevent::
+libevent-based event dispatcher
 
-http://api.kde.org/frameworks-api/frameworks5-apidocs/kwidgetsaddons/html/::
-Action classes that can be added to toolbars or menus, a wide range of widgets
-for selecting characters, fonts, colors, actions, dates and times, or MIME
-types, as well as platform-aware dialogs for configuration pages, message boxes,
-and password requests.
+https://github.com/sjinks/qt_eventdispatcher_libev::
+libev-based event dispatcher
 
-https://github.com/mikemcquaid/Qocoa::
-Wrappers for OS X Cocoa widgets. {MIT}
+https://github.com/svalaskevicius/qt-event-dispatcher-libuv::
+libuv event dispatcher
 
-https://github.com/shadone/qtmacgoodies::
-Additional widgets/objects to make applications look more native on Mac OS X,
-like `MacPreferencesWindow`, `MacStandardIcon` or `MacWindow`.
 
-https://github.com/cybercatalyst/qtsystemtrayiconmac::
-Extended QSystemTrayIcon for Mac OS X.
+=== File formats
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/karchive/html/::
+Provides classes for easy reading, creation and manipulation of "archive"
+formats like ZIP and TAR. It also provides transparent compression and
+decompression of data, like the GZip format, via a subclass of QIODevice.
+
+https://github.com/flavio/qjson::
+Library that maps JSON data to QVariant objects. Supports Qt 4.
+
+https://github.com/gaudecker/qt-json::
+A simple class for parsing JSON data into a QVariant hierarchy and vice versa.
+Supports Qt 4.
 
 
 === Gaming
@@ -98,52 +101,6 @@ thermometers, wheels and knobs to control or display values, arrays, or ranges
 of type double.
 
 
-=== File formats
-
-http://api.kde.org/frameworks-api/frameworks5-apidocs/karchive/html/::
-Provides classes for easy reading, creation and manipulation of "archive"
-formats like ZIP and TAR. It also provides transparent compression and
-decompression of data, like the GZip format, via a subclass of QIODevice.
-
-https://github.com/flavio/qjson::
-Library that maps JSON data to QVariant objects. Supports Qt 4.
-
-https://github.com/gaudecker/qt-json::
-A simple class for parsing JSON data into a QVariant hierarchy and vice versa.
-Supports Qt 4.
-
-
-=== Multimedia
-
-http://www.qtav.org/::
-QtAV is a multimedia playback library based on Qt and FFmpeg. Supports Android,
-iOS and desktops.
-
-
-=== Inter process communication
-
-
-=== Threading and asynchronous programming
-
-http://api.kde.org/frameworks-api/frameworks5-apidocs/threadweaver/html/::
-Helper for multithreaded programming. It uses a job-based interface to queue
-tasks and execute them in an efficient way. You simply divide the workload into
-jobs, state the dependencies between the jobs and ThreadWeaver will work out the
-most efficient way of dividing the work between threads within a set of resource
-limits.
-
-
-=== Network protocols and web services
-
-http://api.kde.org/frameworks-api/frameworks5-apidocs/kdnssd/html/::
-Library for handling the DNS-based Service Discovery Protocol (DNS-SD), the
-layer of Zeroconf that allows network services, such as printers, to be
-discovered without any user intervention or centralized infrastructure.
-
-https://github.com/wiedi/libmaia::
-XML-RPC library.
-
-
 === Hardware detection and interaction
 
 http://api.kde.org/frameworks-api/frameworks5-apidocs/bluez-qt/html/::
@@ -155,6 +112,27 @@ A device integration framework. It provides a way of querying and
 interacting with hardware independently of the underlying operating system.
 It provides the following features for application developers: Hardware
 Discovery, Power Management, and Network Management.
+
+
+=== Inter process communication
+
+
+=== Multimedia
+
+http://www.qtav.org/::
+QtAV is a multimedia playback library based on Qt and FFmpeg. Supports Android,
+iOS and desktops.
+
+
+=== Network protocols and web services
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kdnssd/html/::
+Library for handling the DNS-based Service Discovery Protocol (DNS-SD), the
+layer of Zeroconf that allows network services, such as printers, to be
+discovered without any user intervention or centralized infrastructure.
+
+https://github.com/wiedi/libmaia::
+XML-RPC library.
 
 
 === Other programming languages
@@ -182,6 +160,60 @@ Bindings between Ruby and QML. Enables you to write Qt Quick GUIs in Ruby.
 https://github.com/trollixx/node.qml::
 Node.js compatibility layer to QML applications. Potentially, QML applications
 should be able to use majority of Node.js libraries.
+
+
+=== Threading and asynchronous programming
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/threadweaver/html/::
+Helper for multithreaded programming. It uses a job-based interface to queue
+tasks and execute them in an efficient way. You simply divide the workload into
+jobs, state the dependencies between the jobs and ThreadWeaver will work out the
+most efficient way of dividing the work between threads within a set of resource
+limits.
+
+
+=== User Interface
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kguiaddons/html/::
+Utilities for graphical user interfaces in the areas of colors, fonts, text,
+images, keyboard input.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kitemmodels/html/::
+A set of extra item models for the model-view framework.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kitemviews/html/::
+Includes a set of views, which can be used with item models. It includes views
+for categorizing lists and to add search filters to flat and hierarchical lists.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kwidgetsaddons/html/::
+Action classes that can be added to toolbars or menus, a wide range of widgets
+for selecting characters, fonts, colors, actions, dates and times, or MIME
+types, as well as platform-aware dialogs for configuration pages, message boxes,
+and password requests.
+
+https://github.com/mikemcquaid/Qocoa::
+Wrappers for OS X Cocoa widgets. {MIT}
+
+https://github.com/shadone/qtmacgoodies::
+Additional widgets/objects to make applications look more native on Mac OS X,
+like `MacPreferencesWindow`, `MacStandardIcon` or `MacWindow`.
+
+https://github.com/cybercatalyst/qtsystemtrayiconmac::
+Extended QSystemTrayIcon for Mac OS X.
+
+
+=== Web frameworks
+
+http://cutelyst.org/::
+MVC web framework inspired in Perl's Catalyst.
+
+https://github.com/jlaine/qdjango/::
+QDjango is a web framework written in C++ and built on top of the Qt library.
+Where possible it tries to follow django's API, hence its name.
+
+https://github.com/vinipsmaker/tufao::
+Tufão is a web framework for C++ that makes use of Qt's object communication
+system (signals & slots).
 
 
 === Miscellany
@@ -238,39 +270,6 @@ Plugin-based spell checking library for Qt-based applications. It supports
 several different plugins, including HSpell, Enchant, ASpell and HUNSPELL. It
 also supports automated language detection, based on a combination of different
 algorithms.
-
-
-=== Web frameworks
-
-http://cutelyst.org/::
-MVC web framework inspired in Perl's Catalyst.
-
-https://github.com/jlaine/qdjango/::
-QDjango is a web framework written in C++ and built on top of the Qt library.
-Where possible it tries to follow django's API, hence its name.
-
-https://github.com/vinipsmaker/tufao::
-Tufão is a web framework for C++ that makes use of Qt's object communication
-system (signals & slots).
-
-
-=== Event loop dispatchers
-
-https://github.com/sjinks/qt_eventdispatcher_epoll::
-epoll-based event dispatcher
-
-https://github.com/connectedtable/qeventdispatcher_epoll::
-epoll event dispatcher
-
-https://github.com/sjinks/qt_eventdispatcher_libevent::
-libevent-based event dispatcher
-
-https://github.com/sjinks/qt_eventdispatcher_libev::
-libev-based event dispatcher
-
-https://github.com/svalaskevicius/qt-event-dispatcher-libuv::
-libuv event dispatcher
-
 
 
 == Tools

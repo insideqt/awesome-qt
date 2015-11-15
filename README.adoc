@@ -19,6 +19,12 @@ that don't use Qt.
 == Libraries
 
 
+=== Databases
+
+https://github.com/KDAB/sqlate::
+Compile-time checked access to databases using C++ templates.
+
+
 === User Interface
 
 http://api.kde.org/frameworks-api/frameworks5-apidocs/kguiaddons/html/::

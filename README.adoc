@@ -135,9 +135,18 @@ https://github.com/seanchas116/libqmlbind::
 A C library for easily creating QML bindings for other languages by exporting
 objects to QML. In use in `ruby-qml`.
 
+http://www.riverbankcomputing.com/software/pyqt/::
+A set of Python 2 and Python 3 bindings for Qt and runs on all platforms
+supported by Qt including Windows, OS X and Linux. PyQt5 supports Qt 5.
+
 http://thp.io/2011/pyotherside/::
 Asynchronous Python 3 Bindings for Qt 5. This is a QML Plugin that provides
 access to a Python 3 interpreter from QML.
+
+https://wiki.qt.io/Category:LanguageBindings::PySide::
+Provides LGPL-licensed Python bindings for Qt. It also includes a complete
+toolchain for rapidly generating bindings for any Qt-based C++ class
+hierarchy.
 
 http://seanchas116.github.io/ruby-qml/::
 Bindings between Ruby and QML. Enables you to write Qt Quick GUIs in Ruby.

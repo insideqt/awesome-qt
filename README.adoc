@@ -152,7 +152,7 @@ http://seanchas116.github.io/ruby-qml/::
 Bindings between Ruby and QML. Enables you to write Qt Quick GUIs in Ruby.
 
 https://github.com/trollixx/node.qml::
-a Node.js compatibility layer to QML applications. Potentially, QML applications
+Node.js compatibility layer to QML applications. Potentially, QML applications
 should be able to use majority of Node.js libraries.
 
 
@@ -162,8 +162,8 @@ https://github.com/sergey-shambir/breakpad-qt::
 Cross-platform crash handler, implemented as wrapper around google-breakpad.
 
 https://github.com/dschmidt/libcrashreporter-qt::
-libcrashreporter-qt is supposed to provide an easy integration of Google
-Breakpad crash reporting into a Qt application.
+Provides an easy integration of Google Breakpad crash reporting into a Qt
+application.
 
 http://api.kde.org/frameworks-api/frameworks5-apidocs/kconfig/html/::
 Provides an advanced configuration system. The core provides access to the

@@ -28,7 +28,9 @@ All that fulfill the following criteria:
   libraries.
 . Projects published under a license which appears in at least the
   {FsfLicenses}[Free Software Foundation's license list] or the
-  {OsiLicenses}[Open Source Initiative's license list].
+  {OsiLicenses}[Open Source Initiative's license list]. Projects with dual
+  license are fine, but they have to provide a way to contribute back, even if
+  it is after signing a legal agreement.
 . Projects that are reasonably alive. No specific time is given because it
   depends on how relevant the project is in its area. There is no need to have 5
   JSON parsers in the list when there is already native JSON support in Qt Core,

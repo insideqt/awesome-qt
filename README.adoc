@@ -41,6 +41,10 @@ and password requests.
 https://github.com/mikemcquaid/Qocoa::
 Wrappers for OS X Cocoa widgets. {MIT}
 
+https://github.com/shadone/qtmacgoodies::
+Additional widgets/objects to make applications look more native on Mac OS X,
+like `MacPreferencesWindow`, `MacStandardIcon` or `MacWindow`.
+
 https://github.com/cybercatalyst/qtsystemtrayiconmac::
 Extended QSystemTrayIcon for Mac OS X.
 

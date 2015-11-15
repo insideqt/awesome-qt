@@ -21,6 +21,23 @@ that don't use Qt.
 
 === User Interface
 
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kguiaddons/html/::
+Utilities for graphical user interfaces in the areas of colors, fonts, text,
+images, keyboard input.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kitemmodels/html/::
+A set of extra item models for the model-view framework.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kitemviews/html/::
+Includes a set of views, which can be used with item models. It includes views
+for categorizing lists and to add search filters to flat and hierarchical lists.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kwidgetsaddons/html/::
+Action classes that can be added to toolbars or menus, a wide range of widgets
+for selecting characters, fonts, colors, actions, dates and times, or MIME
+types, as well as platform-aware dialogs for configuration pages, message boxes,
+and password requests.
+
 https://github.com/mikemcquaid/Qocoa::
 Wrappers for OS X Cocoa widgets. {MIT}
 
@@ -29,6 +46,17 @@ Extended QSystemTrayIcon for Mac OS X.
 
 
 === Graphics
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kimageformats/html/::
+Provides additional image format plugins for QtGui. Read support for: Gimp
+(xcf), OpenEXR (exr), Photoshop documents (psd), Sun Raster (ras). Write support
+for: Encapsulated PostScript (eps), Personal Computer Exchange (pcx), SGI images
+(rgb, rgba, sgi, bw), Softimage PIC (pic), Targa (tga), XView (xv).
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kplotting/html/::
+A lightweight and easy to use plot widget.
+// TODO: Original description was pretty bad. I think this is the best I can say
+// right now, but help improving this is more than welcome.
 
 https://github.com/gamecreature/QtAwesome::
 Library for using http://fortawesome.github.io/Font-Awesome/[Font Awesome] or
@@ -43,6 +71,11 @@ of type double.
 
 
 === File formats
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/karchive/html/::
+Provides classes for easy reading, creation and manipulation of "archive"
+formats like ZIP and TAR. It also provides transparent compression and
+decompression of data, like the GZip format, via a subclass of QIODevice.
 
 https://github.com/flavio/qjson::
 Library that maps JSON data to QVariant objects. Supports Qt 4.
@@ -61,14 +94,40 @@ iOS and desktops.
 
 === Inter process communication
 
-=== Threading
+
+=== Threading and asynchronous programming
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/threadweaver/html/::
+Helper for multithreaded programming. It uses a job-based interface to queue
+tasks and execute them in an efficient way. You simply divide the workload into
+jobs, state the dependencies between the jobs and ThreadWeaver will work out the
+most efficient way of dividing the work between threads within a set of resource
+limits.
+
 
 === Network protocols and web services
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kdnssd/html/::
+Library for handling the DNS-based Service Discovery Protocol (DNS-SD), the
+layer of Zeroconf that allows network services, such as printers, to be
+discovered without any user intervention or centralized infrastructure.
 
 https://github.com/wiedi/libmaia::
 XML-RPC library.
 
+
 === Hardware detection and interaction
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/bluez-qt/html/::
+BluezQt is a library for communication with the BlueZ system and session
+daemons.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/solid/html/::
+A device integration framework. It provides a way of querying and
+interacting with hardware independently of the underlying operating system.
+It provides the following features for application developers: Hardware
+Discovery, Power Management, and Network Management.
+
 
 === Other programming languages
 
@@ -97,6 +156,32 @@ https://github.com/dschmidt/libcrashreporter-qt::
 libcrashreporter-qt is supposed to provide an easy integration of Google
 Breakpad crash reporting into a Qt application.
 
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kconfig/html/::
+Provides an advanced configuration system. The core provides access to the
+files, with a code generation system to have type safe access to the
+configuration, which features cascading files (global versus local), shell
+expansion, and locking down options. The GUI provides a way to hook widgets to
+the configuration so that they are automatically initialized from the
+configuration and automatically propagate their changes to their respective
+configuration files.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kcoreaddons/html/::
+Support classes for manipulating mime types, autosaving files, creating backup
+files, generating random sequences, performing text manipulations such as macro
+replacement, accessing user information and more.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/ki18n/html/::
+Provides functionality for internationalizing user interface text in
+applications, based on the GNU Gettext translation system. It wraps the standard
+Gettext functionality, so that the programmers and translators can use the
+familiar Gettext tools and workflows. KI18n provides additional functionality:
+argument capturing, customizable markup, and translation scripting.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/kidletime/html/::
+Reports information on idle time. It is useful not only for finding out about
+the current idle time of the PC, but also for getting notified upon idle time
+events, such as custom timeouts, or user activity
+
 https://github.com/Roxee/qt-roxeemegaup/::
 Wrapper around Sparkle and WinSparkle.
 
@@ -110,6 +195,12 @@ An up to date QtSingleApplication fork.
 https://github.com/VerbalExpressions/QtVerbalExpressions::
 Regular Expressions made easy. Match and replace in strings with an easy to use
 API.
+
+http://api.kde.org/frameworks-api/frameworks5-apidocs/sonnet/html/::
+Plugin-based spell checking library for Qt-based applications. It supports
+several different plugins, including HSpell, Enchant, ASpell and HUNSPELL. It
+also supports automated language detection, based on a combination of different
+algorithms.
 
 
 === Web frameworks

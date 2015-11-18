@@ -321,6 +321,11 @@ https://github.com/KDAB/GammaRay::
 GammaRay is a tool to poke around in a Qt-application and also to manipulate the
 application to some extent.
 
+https://github.com/Pelagicore/qmllive::
+A live coding environment for QML. Allows to reload your QML view when a file in
+your project changes. This can be done on the same device using the QmlLiveBench
+or on a remote device using the QmlLiveRuntime.
+
 https://github.com/robertknight/Qt-Inspector::
 Utility to browse the Qt object tree of a running Qt application and edit object
 properties on the fly

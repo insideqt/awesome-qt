@@ -170,6 +170,12 @@ discovered without any user intervention or centralized infrastructure.
 https://github.com/wiedi/libmaia::
 XML-RPC library.
 
+https://github.com/qxmpp-project/qxmpp:
+XMPP client and server library. QXmpp strives to be as easy to use as possible:
+the underlying TCP socket, the core XMPP RFCs (RFC3920 and RFC3921) and XMPP
+extensions have been nicely encapsulated into classes. QXmpp comes with full API
+documentation, automatic tests and many examples.
+
 
 === Other programming languages
 

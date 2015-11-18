@@ -22,7 +22,8 @@ that don't use Qt.
 === Databases
 
 https://github.com/KDAB/sqlate::
-Compile-time checked access to databases using C++ templates.
+Compile-time checked type-safe access to SQL databases using C++ templates.
+Allows you to get rid of string-based SQL queries in your Qt application.
 
 
 === Event loop dispatchers
@@ -78,6 +79,13 @@ including iOS, Android, BlackBerry.
 
 === Graphics
 
+http://www.kdab.com/kd-reports/::
+Lets you easily create printable reports by providing all of the necessary
+features for a variety of applications. Reports can be created programmatically,
+using an easy to use C++ API, or they can be data-driven, creating reports from
+XML or SQL data sources complete with watermarks, headers and footers. Reports
+can be previewed manually, sent directly to a printer, or saved as PDF files.
+
 http://api.kde.org/frameworks-api/frameworks5-apidocs/kimageformats/html/::
 Provides additional image format plugins for QtGui. Read support for: Gimp
 (xcf), OpenEXR (exr), Photoshop documents (psd), Sun Raster (ras). Write support
@@ -123,8 +131,15 @@ http://www.qtav.org/::
 QtAV is a multimedia playback library based on Qt and FFmpeg. Supports Android,
 iOS and desktops.
 
+https://vlc-qt.tano.si/::
+Contains core classes for main media playback and some GUI classes for faster
+media player developement.
 
 === Network protocols and web services
+
+http://communi.github.io/::
+A cross-platform IRC framework. Provides a set of tools for enabling IRC
+connectivity in Qt-based C++ and QML applications.
 
 http://api.kde.org/frameworks-api/frameworks5-apidocs/kdnssd/html/::
 Library for handling the DNS-based Service Discovery Protocol (DNS-SD), the
@@ -210,6 +225,13 @@ MVC web framework inspired in Perl's Catalyst.
 https://github.com/jlaine/qdjango/::
 QDjango is a web framework written in C++ and built on top of the Qt library.
 Where possible it tries to follow django's API, hence its name.
+
+http://www.treefrogframework.org/::
+High-speed and full-stack web application framework based on C++ and Qt, which
+supports HTTP and WebSocket protocol. Web applications can run faster than that
+of lightweight programming language. In application development, it provides an
+O/R mapping system and template system on an MVC architecture, aims to achieve
+high productivity through the policy of convention over configuration.
 
 https://github.com/vinipsmaker/tufao::
 Tufão is a web framework for C++ that makes use of Qt's object communication

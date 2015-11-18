@@ -16,6 +16,27 @@ that don't use Qt.
 
 
 
+== Other registries / package managers
+
+There are other projects that aim to provide not only an entry point to find
+other Qt libraries, but also a tool to download and configure them.
+
+http://inqlude.org/::
+A large list of Qt libraries, categorized by maturity level and license. Is the
+oldest and largest archive of Qt projects. A project from the
+http://www.kde.org[KDE] community.
+
+https://www.qpm.io/::
+A package manager for Qt, from the http://www.cutehacks.com/[Cutehacks]
+developers. Is the youngest project, but features the best command line tool to
+install packages.
+
+http://www.qt-pods.org/::
+Inspired by the Cocoa pods project, a package manager with even a GUI interface
+based on git submodules.
+
+
+
 == Libraries
 
 

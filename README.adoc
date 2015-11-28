@@ -203,6 +203,10 @@ Provides LGPL-licensed Python bindings for Qt. It also includes a complete
 toolchain for rapidly generating bindings for any Qt-based C++ class
 hierarchy.
 
+http://sourceforge.net/projects/pythonqt/::
+Embeds Python in a Qt application, making classes based in `QObject` accessible
+to the scripted language language.
+
 https://github.com/svalaskevicius/qtjs-generator::
 Qt API bindings generator for Node.js. Exposes the Qt API to JavaScript, running
 in an integrated event loop inside Node.js.
@@ -329,6 +333,11 @@ algorithms.
 
 
 == Tools
+
+https://github.com/sletta/dqml::
+A simple live coding environment for QML. It will track the directory where a
+QML file is located and continuously update the view where it is located.
+Supports pushing files to a remote system which will reload the received files.
 
 https://github.com/KDAB/GammaRay::
 GammaRay is a tool to poke around in a Qt-application and also to manipulate the

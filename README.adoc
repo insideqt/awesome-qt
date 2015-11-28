@@ -183,6 +183,10 @@ https://github.com/seanchas116/libqmlbind::
 A C library for easily creating QML bindings for other languages by exporting
 objects to QML. In use in `ruby-qml`.
 
+https://github.com/trollixx/node.qml::
+Node.js compatibility layer to QML applications. Potentially, QML applications
+should be able to use majority of Node.js libraries.
+
 http://www.riverbankcomputing.com/software/pyqt/::
 A set of Python 2 and Python 3 bindings for Qt and runs on all platforms
 supported by Qt including Windows, OS X and Linux. PyQt5 supports Qt 5.
@@ -196,12 +200,12 @@ Provides LGPL-licensed Python bindings for Qt. It also includes a complete
 toolchain for rapidly generating bindings for any Qt-based C++ class
 hierarchy.
 
+https://github.com/svalaskevicius/qtjs-generator::
+Qt API bindings generator for Node.js. Exposes the Qt API to JavaScript, running
+in an integrated event loop inside Node.js.
+
 http://seanchas116.github.io/ruby-qml/::
 Bindings between Ruby and QML. Enables you to write Qt Quick GUIs in Ruby.
-
-https://github.com/trollixx/node.qml::
-Node.js compatibility layer to QML applications. Potentially, QML applications
-should be able to use majority of Node.js libraries.
 
 
 === Threading and asynchronous programming

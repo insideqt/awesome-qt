@@ -1,0 +1,22 @@
+language: ruby
+
+before_install:
+  - gem install asciidoctor
+
+script:
+  - asciidoctor README.adoc -o index.html
+
+after_success:
+  - ./.travis.sh
+
+notifications:
+  email: false
+  irc:
+    channels:
+      - chat.freenode.net#insideqt
+    template:
+      - "%{repository}/%{branch} (%{commit} - %{author}): %{build_url}: %{message}"
+
+env:
+  global:
+    secure: E2h3TImhAhFqAqgcvq4dw8rHYV3iLZgb6qyBt7aGxbTrxVfX1vMVnCbT0AoXuyXOivOiJT9djkhKua5hbZUKGQZOFhzHL2JyVqahlQWmQ2kwv82QyQqBKWAI2Lp8YJR3EdFxRUCTLN2tqB1uqegbjPT05VHL8Wxw/9XUYII+nDm8W4yB/tIbF8vDS9ngFMpyfcQfDhIruDfBn+wI6tKZVrazsFN9uj9bn5uDvqFIg9bv+Yq75363yBu0BsOSqtHqT8+PGHKIYx5RcEA03IGQaY2/wC52Va8269azuOL7684tu+V1SNi4EbBCey3lUYzhxEUfwHpUERExVVc66kqdaK1uO+438zim3VeiTHE+PHIEIOa1AqYrzYr5VRFKnc3dV3f8EpGIKSrXgGSP1dFR1PqZ9YZcT07BpV3Uw0vzt49okwpJBAvEzqqv7eTs13XR7Y+scr5xpsbpUOqLOgnEqqp1/LZ72wZ6qOlKf2oU+CNF+ZAi/2aePZ1ygEsRlLCjC+2xuzOSWVzeObcFhMU02X/FI2hdikpcyjdT62M3Zf0i76/VFMVB5COXIR89gPMOgzSmlzrySSshw4YGps6/FH1fj9xNmFDaLrpVAwBaEFJ/sKoZAECVzj3xjCRwbvc6omC3Iff+poaXdwSRqw5cvU5u+SKbg3LW9EBMtA5oY1w=

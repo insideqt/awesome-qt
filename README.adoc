@@ -3,10 +3,17 @@
 :toc: preamble
 :toc-title:
 
+:AwesomeQt: https://insideqt.github.io/awesome-qt
+
 :MIT: http://opensource.org/licenses/MIT[MIT license.]
 
 A curated list of links to awesome Qt-related libraries, tools, and other
 resources published under Free Software/Open Source licenses.
+
+ifdef::env-github[]
+NOTE: This list is {AwesomeQt}[also available in Github Pages] with an improved
+rendering for better legibility.
+endif::[]
 
 Don't forget to check http://doc.qt.io/qt-5/qtmodules.html[the list of essential
 and add-on modules from the Qt project] first! Upcoming modules might be in

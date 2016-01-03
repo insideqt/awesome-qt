@@ -2,6 +2,7 @@
 :icons: font
 :toc: preamble
 :toc-title:
+:idprefix:
 
 :AwesomeQt: https://insideqt.github.io/awesome-qt
 

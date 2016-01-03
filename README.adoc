@@ -3,6 +3,7 @@
 :toc: preamble
 :toc-title:
 :idprefix:
+:idseparator: _
 
 :AwesomeQt: https://insideqt.github.io/awesome-qt
 

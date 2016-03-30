@@ -23,6 +23,51 @@ and add-on modules from the Qt project] first! Upcoming modules might be in
 there is https://github.com/fffaraz/awesome-cpp[Awesome C/C++] for more projects
 that don't use Qt.
 
+////
+
+PENDING:
+
+https://github.com/kitware/qtextensions
+https://github.com/benlau/quickflux
+(http://forum.qt.io/topic/55213/writing-qml-application-in-a-flux-way,
+https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207#.gpuhwoq7z)
+https://github.com/benlau/quickpromise
+https://github.com/benlau/dquest
+https://github.com/benlau/quickcross
+https://github.com/benlau
+https://github.com/danielfranca/quickmodel
+https://github.com/danielfranca
+https://github.com/nsuke/protobuf-qml
+http://gitlab.unique-conception.org/groups/qt-libraries
+https://github.com/msorvig/qts3
+https://github.com/msorvig
+https://github.com/cloose
+https://github.com/cloose/Hamcrest-Qt
+https://github.com/cloose/qoembed
+https://github.com/think-free/QtAndroidHelper
+https://github.com/nowrep
+https://github.com/Cutehacks/gel
+https://github.com/lasconic/ShareUtils-QML
+http://blog.lasconic.com/share-on-ios-and-android-using-qml/
+https://github.com/brexis/qml-bootstrap
+https://github.com/QUItCoding/qnanopainter
+https://github.com/cneben?tab=repositories
+https://github.com/achipa/Qondrite
+https://github.com/erikhvatum/StackStream
+https://github.com/jbagg/QtZeroConf
+https://github.com/pavelvasev/qmlweb.run
+https://github.com/dinusv/qml-gantt
+https://github.com/WilkGardariki/QObjectSerialization
+https://github.com/rburchell/qt-interview-widgets (not much updated, but...)
+https://github.com/colede/qt-app-delegate
+https://github.com/Ableton/aqt-stylesheets
+
+TOOLS:
+
+https://github.com/procedural/qtcreator-themes#install
+Otros colores?
+
+////
 
 
 == Other registries / package managers
@@ -216,6 +261,10 @@ http://sourceforge.net/projects/pythonqt/::
 Embeds Python in a Qt application, making classes based in `QObject` accessible
 to the scripted language language.
 
+// https://github.com/ryanmelt/qtbindings::
+// Ruby gem to use the Qt API. A repackaging of the Qt subset of the Ruby bindings
+// provided by KDE. Qt5 support not yet.
+
 https://github.com/svalaskevicius/qtjs-generator::
 Qt API bindings generator for Node.js. Exposes the Qt API to JavaScript, running
 in an integrated event loop inside Node.js.
@@ -284,6 +333,10 @@ https://github.com/vinipsmaker/tufao::
 Tufão is a web framework for C++ that makes use of Qt's object communication
 system (signals & slots).
 
+// Security/scrypto???
+// - libQtKeyChain
+// - QCA
+// https://github.com/grassator/react-qml
 
 === Miscellany
 
@@ -362,6 +415,20 @@ Utility to browse the Qt object tree of a running Qt application and edit object
 properties on the fly
 
 
+
+== Examples or proof of concepts
+
+These might be applications or libraries that might not be ready to use, but can
+be considered like the examples and demos provided with the Qt modules.
+
+https://github.com/Cutehacks/qtgcm::
+An example of using push notifications in a Qt application.
+
+// objective-c + Qt
+
+
+// Declarative translations with QML
+// https://github.com/vmoolle/qtsummit2015demo
 
 == Off topic
 

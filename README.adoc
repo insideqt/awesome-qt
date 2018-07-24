@@ -223,6 +223,8 @@ in an integrated event loop inside Node.js.
 http://seanchas116.github.io/ruby-qml/::
 Bindings between Ruby and QML. Enables you to write Qt Quick GUIs in Ruby.
 
+https://github.com/pauldotknopf/Qml.Net:: A cross-platform integration of Qml/QtQuick for .NET Core/.NET Framework/Mono. It is a binding that brings .NET types into JavaScript with full interoperability.
+
 
 === Threading and asynchronous programming
 
